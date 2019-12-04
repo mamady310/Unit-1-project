@@ -1,0 +1,41 @@
+body{
+    background-color: cadetblue
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 250px;
+    height: 320px;
+}
+.thecard{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+ .thefront{  
+     position: absolute;
+     width: 200px;
+     height: 300px;
+     backface-visibility: hidden;
+     background: yellow;
+     color: black;
+ }
+
+ .theback{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    backface-visibility: hidden;
+    background: green;
+    color: black;
+    transform: rotateY(180deg);
+}
