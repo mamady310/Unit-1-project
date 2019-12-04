@@ -16,14 +16,18 @@ let theCardInfo = document.querySelector(".thecard");
 //   console.log(theCardInfo);
 
   let frontOfCard = document.querySelector(".thefront");
-    //   console.log(frontOfCard);
-
-console.log(cardDataList);
-
-
-
-frontOfCard.innerHTML = cardDataList[0].front
+  frontOfCard.innerHTML = cardDataList[0].front
+    
+  
+//   console.log(frontOfCard);
 
 // newParagraph.innerHTML = characterBio
 let backOfCard = document.querySelector(".theback");
 backOfCard.innerHTML = cardDataList[0].back
+
+// for( i=0; i< cardDataList.length; i++);
+
+document.querySelector('button').addEventListener("click", () => {
+ console.log("when is this going to be over");
+
+})
