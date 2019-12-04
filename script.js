@@ -10,5 +10,20 @@ var cardDataList = [
 
 ]
 
+// create variable that puts the array of cardDataList into the class
+
+let theCardInfo = document.querySelector(".thecard"); 
+//   console.log(theCardInfo);
+
+  let frontOfCard = document.querySelector(".thefront");
+    //   console.log(frontOfCard);
+
+console.log(cardDataList);
 
 
+
+frontOfCard.innerHTML = cardDataList[0].front
+
+// newParagraph.innerHTML = characterBio
+let backOfCard = document.querySelector(".theback");
+backOfCard.innerHTML = cardDataList[0].back
