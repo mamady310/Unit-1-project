@@ -1,11 +1,11 @@
 //Create questions and answers for the front and back of the cards
 var cardDataList = [
  {
-     front:"this is the front of one one one",
-     back:"this is the back of one",
+     front:"What year were credit cards first used in the United States?",
+     back:"1920",
  },
- {   front:"this is the front of two",
-     back:"this is teh back of two",
+ {   front:"What is the most popular name in the world?",
+     back:"Muhhamad",
  },
  {   front:"this is the front of three",
      back:"this is the back of three",

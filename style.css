@@ -1,8 +1,23 @@
-body{
-    background-color: cadetblue
+/* .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
 h1{
     font-size: 50px;
+    animation-direction: reverse;
 }
 
 .container{
@@ -10,13 +25,13 @@ h1{
     justify-content: center;
     align-content: center;
     margin: auto;
-    width: 270px;
-    height: 340px;
+    width: 290px;
+    height: 360px;
 }
 .thecard{
     position: absolute;
-    width: 220px;
-    height: 320px;
+    width: 240px;
+    height: 340px;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
 }
@@ -26,29 +41,27 @@ h1{
 }
  .thefront{  
      position: absolute;
-     width: 220px;
-     height: 320px;
+     width: 240px;
+     height: 340px;
      backface-visibility: hidden;
      background: yellow;
      border-radius: 20px;
      color: black;
+     font-size: 20px;
+     
  }
 
  .theback{
     position: absolute;
-    width: 220px;
-    height: 320px;
+    width: 240px;
+    height: 340px;
     backface-visibility: hidden;
     background: green;
     color: black;
     border-radius: 20px;
+    font-size: 20px;
     transform: rotateY(180deg);
 }
-.button-container {
-    display: block;
-    justify-content: center;
-    align-content: center;
-    margin: 0;
-    height: 100px;
-    width: 100px;
+button {
+    position
 }
