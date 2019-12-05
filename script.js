@@ -47,18 +47,18 @@ backOfCard.innerHTML = cardDataList[0].back
 let grabButton =  document.querySelector('button')
 let roundTracker = 1
 
-grabButton.addEventListener("click", () =>{
+grabButton.addEventListener("click", () => {
         frontOfCard.innerHTML = cardDataList[roundTracker].front 
         backOfCard.innerHTML = cardDataList[roundTracker].back
         roundTracker++
 })
 
 let resetButton = document.querySelector('.button1')
-
-resetButton.addEventListener("click", () =>{
+resetButton.addEventListener("click", () => {
         frontOfCard.innerHTML = cardDataList[0].front
         backOfCard.innerHTML = cardDataList[0].back     
 })
+
 
 // side bar info convo below
 //let grabParas = document.querySelectorAll('something')

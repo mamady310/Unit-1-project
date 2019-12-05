@@ -1,20 +1,22 @@
 body{
     background-color: cadetblue
 }
-
+h1{
+    font-size: 50px;
+}
 
 .container{
     display: block;
     justify-content: center;
     align-content: center;
     margin: auto;
-    width: 250px;
-    height: 320px;
+    width: 270px;
+    height: 340px;
 }
 .thecard{
     position: absolute;
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 320px;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
 }
@@ -24,19 +26,29 @@ body{
 }
  .thefront{  
      position: absolute;
-     width: 200px;
-     height: 300px;
+     width: 220px;
+     height: 320px;
      backface-visibility: hidden;
      background: yellow;
+     border-radius: 20px;
      color: black;
  }
 
  .theback{
     position: absolute;
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 320px;
     backface-visibility: hidden;
     background: green;
     color: black;
+    border-radius: 20px;
     transform: rotateY(180deg);
+}
+.button-container {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    height: 100px;
+    width: 100px;
 }
