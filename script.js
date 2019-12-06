@@ -1,21 +1,27 @@
 //Create questions and answers for the front and back of the cards
 var cardDataList = [
  {
-     front:"What year were credit cards first used in the United States?",
-     back:"1920",
+     front:"Bonjour",
+     back:"Hello",
  },
- {   front:"What is the world's most expensive object ever built?",
-     back:"The International Space Station $150 bilion",
+ {   front:"chat",
+     back:"cat",
  },
- {   front:"Why was the secret service originally created",
-     back:"Stop counterfeiting",
+ {   front:"Au revoir",
+     back:"Goodbye",
  },
- {   front:"In 2015 how much money did TSA collect in loose change?",
-     back:"this is the back of four",
+ {   front:"câlin",
+     back:"hug",
  },
- {   front:"this is the front of five",
+ {   front:"doux",
      back: "this is the back of five",
  },
+ {   front:"orage",
+     back:"thunderstorm",
+ },
+{    front:"soleil",
+     back:"sun",
+},
 ]
 
 // create variable that puts the array of cardDataList into the class
@@ -74,3 +80,4 @@ grabButton.addEventListener("click", () => {
 //     grabParas[i].addEventListener
     
 // }
+let para = document.createElement('p');
