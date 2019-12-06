@@ -54,23 +54,26 @@ let grabButton =  document.querySelector('button')
 let roundTracker = 1
 
 
-let resetButton = document.querySelector('.button1')
-resetButton.addEventListener("click", () => {
-        frontOfCard.innerHTML = cardDataList[0].front
-        backOfCard.innerHTML = cardDataList[0].back     
-})
-
 grabButton.addEventListener("click", () => {
     frontOfCard.innerHTML = cardDataList[roundTracker].front 
     backOfCard.innerHTML = cardDataList[roundTracker].back
     roundTracker++
 })
 
+
 // let resetButton = document.querySelector('.button1')
 // resetButton.addEventListener("click", () => {
 //         frontOfCard.innerHTML = cardDataList[0].front
 //         backOfCard.innerHTML = cardDataList[0].back     
 // })
+
+
+//Add click event to refresh page instead of going to beginning of array
+
+ let resetButton = document.querySelector('.button1')
+     resetButton.addEventListener("click", () =>{
+        window.location.reload(true); 
+     })
 
 
 // side bar info convo below
@@ -80,3 +83,18 @@ grabButton.addEventListener("click", () => {
 //     grabParas[i].addEventListener
     
 // }
+
+// event listener for score button 
+let scoreButton = document.querySelector('.button2')
+let scoreValue = 0
+let scoreElement = document.querySelector(".score")
+
+scoreButton.addEventListener("click", () => {
+    console.log("clicked")
+    scoreValue++
+    scoreElement.innerText = scoreValue    
+})
+
+// add variable to increase score every time score button is clicked
+
+
