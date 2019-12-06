@@ -28,6 +28,7 @@ body {
 h1{
     font-size: 50px;
     animation-direction: reverse;
+    color: white;
 }
 
 .container{
@@ -119,4 +120,17 @@ nav {
     display: flex;
     margin-left: 540px;
     margin-top: 50px;
+}
+
+.score {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 50px;
+    background-color: black;
 }
