@@ -4,13 +4,13 @@ var cardDataList = [
      front:"What year were credit cards first used in the United States?",
      back:"1920",
  },
- {   front:"What is the most popular name in the world?",
-     back:"Muhhamad",
+ {   front:"What is the world's most expensive object ever built?",
+     back:"The International Space Station $150 bilion",
  },
- {   front:"this is the front of three",
-     back:"this is the back of three",
+ {   front:"Why was the secret service originally created",
+     back:"Stop counterfeiting",
  },
- {   front:"this is the front of four",
+ {   front:"In 2015 how much money did TSA collect in loose change?",
      back:"this is the back of four",
  },
  {   front:"this is the front of five",
@@ -47,17 +47,24 @@ backOfCard.innerHTML = cardDataList[0].back
 let grabButton =  document.querySelector('button')
 let roundTracker = 1
 
-grabButton.addEventListener("click", () => {
-        frontOfCard.innerHTML = cardDataList[roundTracker].front 
-        backOfCard.innerHTML = cardDataList[roundTracker].back
-        roundTracker++
-})
 
 let resetButton = document.querySelector('.button1')
 resetButton.addEventListener("click", () => {
         frontOfCard.innerHTML = cardDataList[0].front
         backOfCard.innerHTML = cardDataList[0].back     
 })
+
+grabButton.addEventListener("click", () => {
+    frontOfCard.innerHTML = cardDataList[roundTracker].front 
+    backOfCard.innerHTML = cardDataList[roundTracker].back
+    roundTracker++
+})
+
+// let resetButton = document.querySelector('.button1')
+// resetButton.addEventListener("click", () => {
+//         frontOfCard.innerHTML = cardDataList[0].front
+//         backOfCard.innerHTML = cardDataList[0].back     
+// })
 
 
 // side bar info convo below
