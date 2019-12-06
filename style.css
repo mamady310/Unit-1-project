@@ -47,9 +47,9 @@ h1{
      width: 240px;
      height: 340px;
      backface-visibility: hidden;
-     background: yellow;
+     background: blue;
      border-radius: 20px;
-     color: black;
+     color: white;
      font-size: 20px;
      text-align: center;
  }
@@ -64,7 +64,7 @@ h1{
     width: 240px;
     height: 340px;
     backface-visibility: hidden;
-    background: green;
+    background: red;
     text-align: center;
     color: black;
     border-radius: 20px;
