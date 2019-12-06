@@ -11,7 +11,7 @@ The player reads the front of the flash card and guesses the answer in their hea
 Mamady Sillah 
 
 ## Acknowledgement
-CSS Flip Card Effect: https://www.youtube.com/watch?v=OV8MVmtgmoY </br>
+CSS Flip Card Effect: https://www.youtube.com/watch?v=OV8MVmtgmoY
 freecodecamp.org
 https://www.seriousfacts.com/money-facts/
 

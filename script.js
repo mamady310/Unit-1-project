@@ -80,4 +80,3 @@ grabButton.addEventListener("click", () => {
 //     grabParas[i].addEventListener
     
 // }
-let para = document.createElement('p');
